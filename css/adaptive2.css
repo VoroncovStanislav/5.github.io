@@ -1,0 +1,526 @@
+@media (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
+    .services{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .discount_item__1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .route_item{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .navbar__wrap .menu{
+        display: none;
+    }
+    .hamb {
+        display: flex;
+        align-items: center;
+    }
+    .hamb__field {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #fff;
+        transition: 0.2s;
+    }
+    .popup {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+    }
+    .popup.open {
+        left: 0;
+    }
+    .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px 0;
+        overflow: auto;
+    }
+    .popup .menu > li {
+        width: 100%;
+    }
+    .popup .menu > li > a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+    .popup .menu > li > a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    body.noscroll {
+        overflow: hidden;
+    }
+    .title_container h1{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .title_container p{
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .services{
+        margin-top: 40px;
+        margin-left: 14px;
+        margin-right: 14px;
+        height: 100%;
+        border-radius: 15px;
+        background-color:azure;
+        opacity: 0.9;
+        overflow:hidden;
+    }
+    .services_item div{
+        text-align: center;
+        display:inline-block;
+        min-width: 100%;
+        padding-top: 20px;
+    }
+    .services_item img{
+        text-align: center;
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    .services_item h3{
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .services_item p{
+        padding-top: 5px;
+        text-align: center;
+        font-size: 14px;
+        color: black;
+        margin-bottom: 20px;
+    }
+    .advantages_title h1{
+        font-size: 26px;
+    }
+    .advantages_item1 div{
+        text-align: center;
+        min-width: 100%;
+        display:inline-block;
+        padding-top: 20px;
+    }
+    .advantages_item img{
+        text-align: center;
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    .advantages_item p{
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .investors_title h1{
+        font-size: 26px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 50px;
+    }
+    .list3a {
+        padding-top: 10px;
+        display: inline-block;
+        margin-left: 0;
+        list-style: none;
+        counter-reset: li;
+        width: 100%;
+    }
+    .investors_spisok img{
+        margin-top: 1px;
+        width: 100%;
+    }
+    .Ipoteka_title h1{
+        font-size: 34px;
+    }
+    .banki p{
+        font-size: 22px;
+    }
+    .discount_item__1{
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .discount_item__1 div{
+        text-align: center;
+        display:inline-block;
+        min-width: 100%;
+    }
+    .discount_item__1 p{
+        word-break: break-all;
+    }
+    .zayavka{
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .rabota{
+        margin-left: 14px;
+        margin-right: 14px; 
+    }
+    .route_item div{
+        text-align: center;
+        display:inline-block;
+        min-width: 100%;
+    }
+    .route_title h1{
+        font-size: 30px;
+    }
+    .leftPart,.rightPart{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    
+    .telefon{
+        font-size: 16px;
+    }
+    a.telefon{
+        display: none;
+    }
+    .navbar__wrap .menu {
+        display: none;
+    }
+    .hamb {
+        display: flex;
+        align-items: center;
+    }
+    .hamb__field {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #fff;
+        transition: 0.2s;
+    }
+    .popup {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+    }
+    .popup.open {
+        left: 0;
+    }
+    .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px 0;
+        overflow: auto;
+    }
+    .popup .menu > li {
+        width: 100%;
+    }
+    .popup .menu > li > a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+    .popup .menu > li > a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    body.noscroll {
+        overflow: hidden;
+    }
+    .test{
+        padding-top: 12px;
+    }
+    .logotip{
+        height: 50px;
+    }
+    .title_container h1{
+        font-size: 32px;
+        padding-top: 50px;
+    }
+    .title_container p{
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .btn-default{
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .form_inputs1 textarea,input[type = "text"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact_form1 input[type="submit"]{
+        width: 70%;
+        box-sizing: border-box;
+    }
+    .form_inputs2 textarea,input[type = "text"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact_form2 input[type="submit"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .advantages_title h1{
+        font-size: 22px;
+    }
+    .advantages_item p{
+        font-size: 16px;
+    }
+    .advantages_item h3{
+        font-size: 18px;
+    }
+    .investors_sp{
+        margin-top: 10px;
+    }
+    .Ipoteka_title h1{
+        font-size: 30px;
+    }
+    .banki p{
+        font-size: 18px;
+    }
+    .zayavka_title h1{
+        font-size: 20px;
+        word-break: break-all;
+    }
+
+    .form_inputs input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact_form input[type="submit"]{
+        width: 70%;
+        box-sizing: border-box;
+    }
+    .route_title h1{
+        font-size: 22px;
+    }
+    .route_item h4{
+        word-break: break-all;
+    }
+    .form_title h2{
+        font-size: 18px;
+    }
+    .form_title h3{
+        font-size: 18px;
+    }
+    .round{
+        height: 15ch;
+        width: 15ch;
+    }
+    .dlg-modal { 
+        height: 475px;  
+    }
+
+}
+
+@media (max-width: 275px) {
+    .navbar {
+        height: 110px;
+    }
+    .navbar__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .test{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .title_container h1{
+        font-size: 24px;
+        padding-top: 50px;
+        word-break: break-all;
+    }
+    .title_container p{
+        font-size: 12px;
+        padding-top: 30px;
+        word-break: break-all;
+    }
+    .btn-default{
+        width: 125px;
+        height: 60px;
+        font-size: 14px;
+        margin-left: 0px;
+        margin-right: 0px;
+        box-sizing: border-box;
+    }
+    .form_inputs1 input{
+        padding-left: 0px;
+    }
+    .form_inputs1 textarea{
+        padding-left: 0px;
+    }
+    .contact_form1 input[type="submit"]{
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact_form2 input[type="submit"]{
+        width: 100%;
+        font-size: 20px;
+    }
+    .services{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .services_item h3{
+        font-size: 14px;
+        word-break: break-all;
+    }
+    .services_item p{
+        font-size: 10px;
+        word-break: break-all;
+    }
+    .advantages_title h1{
+        font-size: 18px;
+    }
+    .advantages_item h3{
+        font-size: 18px;
+    }
+    .advantages_item p{
+        font-size: 14px;
+    }
+    .investors_title h1{
+        font-size: 20px;
+        word-break: break-all;
+    }
+    .list3a {
+        word-break: break-all;
+    }
+    .list3a li{
+        font-size: 18px;
+    }
+    .forma_with_select_item h3 {
+        font-size: 20px;
+    }
+    .forma_with_select_item button[class="btn btn-default"]{
+        width: 125px;
+        height: 50px;
+        font-size: 14px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Ipoteka_title h1{
+        font-size: 26px;
+    }
+    .banki p{
+        font-size: 14px;
+    }
+    .zayavka_title h1{
+        font-size: 14px;
+    }
+    .contact_form input[type="submit"]{
+        width: 100%;
+        font-size: 20px;
+    }
+    .form_title h2{
+        font-size: 16px;
+    }
+    .form_title h3{
+        font-size: 16px;
+    }
+    .round{
+        height: 10ch;
+        width: 10ch;
+    }
+    .coc{
+        display: grid;
+    }
+    .leftPart a[class="tg"]{
+        margin-top: 10px;
+    }
+    .rightPart h1{
+        font-size: 18px;
+    }
+    .cont h4{
+        font-size: 14px;
+    }
+    .cont a{
+        font-size: 14px;
+    }
+    .social h4{
+        font-size: 14px;
+    }
+    .PR p{
+        font-size: 10px;
+    }
+    
+    .dlg-modal h1,h3{
+        font-size: 16px;
+    }
+    .contact_form p{
+        font-size: 12px;
+    }
+    .contact_form1 p{
+        font-size: 12px;
+    }
+    .firstInput{
+        box-sizing:border-box;
+    }
+    .secondInput{
+        box-sizing: border-box;
+    }
+    .komm{
+        box-sizing: border-box;
+    }
+}
